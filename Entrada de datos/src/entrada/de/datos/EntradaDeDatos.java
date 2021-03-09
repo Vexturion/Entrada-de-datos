@@ -46,9 +46,9 @@ System.out.println("Te gusta Java? (Y/N)");  // utlizamos (/) para limitar las r
 boolean respuesta = sc.nextLine().equalsIgnoreCase("Y");
 
 if (respuesta==true){
-    System.out.println("Hola " + nombre + " cuya edad es de " + edad + " años y su estatura es de " + altura + " metros. Que bueno que te guste la salsa");
+    System.out.println("Hola " + nombre + " cuya edad es de " + edad + " años y su estatura es de " + altura + " metros. Que bueno que te guste Java");
 } else {
-    System.out.println("Hola " + nombre + " cuya edad es de " + edad + " años y su estatura es de " + altura + " metros. Ojala te gustara la salsa");
+    System.out.println("Hola " + nombre + " cuya edad es de " + edad + " años y su estatura es de " + altura + " metros. Ojala te gustara java");
 }
 
 sc.close();  // este metodo nos permite cerrar el scanner, puesto que scanner va a monitorear todo lo que ocurra en consola
